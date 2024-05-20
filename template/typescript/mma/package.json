@@ -1,0 +1,27 @@
+{
+  "name": "server-typescript",
+  "version": "1.0.0",
+  "description": "- README.md\r - package.json\r - .env (optional)\r - tsconfig.json (optional)\r - jest.config.js (optional)\r - dockerfile (optional)\r - docker-compose.yml (optional)",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.ts"
+  },
+  "author": "parthsali <parthsali04@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.21",
+    "@types/http-errors": "^2.0.4",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^20.12.11",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http-errors": "^2.0.0",
+    "mongoose": "^8.3.4"
+  }
+}
