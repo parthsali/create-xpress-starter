@@ -27,11 +27,12 @@ const questions = [
         choices: ['JavaScript', 'TypeScript']
     },
     {
-        type: 'list',
-        name: 'pattern',
-        message: 'Which pattern would you like to use?',
-        choices: ['MVC (Model View Controller)',
-            'MA (Modular Architecture)',
+        "type": "list",
+        "name": "pattern",
+        "message": "Which architectural pattern would you like to use?",
+        "choices": [
+            "Model-View-Controller (MVC) Pattern",
+            "Layered Architecture Pattern (Modular)"
         ]
     },
     {
@@ -45,7 +46,7 @@ const questions = [
 inquirer.prompt(questions).then(answers => {
     const { language, pattern, folder } = answers;
 
-    const patternName = (pattern === 'MVC (Model View Controller)') ? 'mvc' : 'ma';
+    const patternName = (pattern === 'Model-View-Controller (MVC) Pattern') ? 'mvc' : 'ma';
 
 
     const targetPath = path.join(process.cwd(), folder);
