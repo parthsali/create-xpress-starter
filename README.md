@@ -29,7 +29,7 @@ npx create-xpress-starter
 
 After running the command, you'll be prompted to choose your preferred language and architectural pattern:
 
-```sql
+```bash
 ? Enter the folder name for your project (leave blank for current folder):
 
 ? Which language would you like to use? (Use arrow keys)
