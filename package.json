@@ -27,5 +27,9 @@
     "rimraf": "^3.0.2"
   },
   "author": "Parth Sali <parthsali04@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parthsali/create-xpress-starter"
+  }
 }
