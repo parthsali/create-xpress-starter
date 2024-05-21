@@ -3,7 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 const inquirer = require('inquirer');
-const { execSync } = require('child_process');
+
 
 const copyRecursiveSync = (src, dest) => {
     const exists = fs.existsSync(src);
@@ -31,7 +31,7 @@ const questions = [
         name: 'pattern',
         message: 'Which pattern would you like to use?',
         choices: ['MVC (Model View Controller)',
-            'MMA (Modular Monolithic Architecture)',
+            'MA (Modular Architecture)',
         ]
     },
     {
@@ -45,7 +45,7 @@ const questions = [
 inquirer.prompt(questions).then(answers => {
     const { language, pattern, folder } = answers;
 
-    const patternName = (pattern === 'MVC (Model View Controller)') ? 'mvc' : 'mma';
+    const patternName = (pattern === 'MVC (Model View Controller)') ? 'mvc' : 'ma';
 
 
     const targetPath = path.join(process.cwd(), folder);
