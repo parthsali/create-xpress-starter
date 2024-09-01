@@ -1,6 +1,6 @@
 {
   "name": "create-xpress-starter",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "A customizable boilerplate to quickly start an Express.js project with support for JavaScript and TypeScript, and MVC architecture.",
   "main": "index.js",
   "bin": {
