@@ -2,7 +2,6 @@
 
 `create-xpress-starter` is a powerful and customizable boilerplate to quickly set up an Express.js project. It supports both JavaScript and TypeScript, and allows you to choose between MVC and Layered Architecture patterns.
 
-![create-xpress-starter](https://postimg.cc/dDw0tch2)
 
 ## 🚀 Introduction
 
